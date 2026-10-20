@@ -103,7 +103,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<TA_RitualWoodLog>20</TA_RitualWoodLog>
+			<TA_RitualCore>1</TA_RitualCore>
 		</products>
 	</RecipeDef>
 </Defs>
