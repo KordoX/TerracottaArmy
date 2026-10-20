@@ -1,19 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<GeneCategoryDef>
+		<defName>TerracottaArmy</defName>
+		<label>Terracotta Army Genes</label>
+		<displayPriorityInXenotype>530</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
 	<GeneDef ParentName="GeneSleepBase">
+		<displayCategory>TerracottaArmy</displayCategory>
 		<defName>TA_NoSleep</defName>
 		<label>eternal vigilance</label>
 		<description>This Soldier never needs to sleep.</description>
+		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
 		<disablesNeeds>
 			<li>Rest</li>
+		</disablesNeeds>
+	</GeneDef>
+
+	<GeneDef>
+		<displayCategory>TerracottaArmy</displayCategory>
+		<defName>TA_NoComfort</defName>
+		<label>No Comfort</label>
+		<description>This Soldier never needs to cuddle.</description>
+		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+		<disablesNeeds>
 			<li>Comfort</li>
+		</disablesNeeds>
+	</GeneDef>
+
+	<GeneDef>
+		<displayCategory>TerracottaArmy</displayCategory>
+		<defName>TA_NoBeauty</defName>
+		<label>No Beauty</label>
+		<description>This Soldier never needs aesthetic satisfaction.</description>
+		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+		<disablesNeeds>
 			<li>Beauty</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef>
+		<displayCategory>TerracottaArmy</displayCategory>
+		<defName>TA_NoOutdoors</defName>
+		<label>No Outdoors</label>
+		<description>This Soldier never needs to be in the outdoors.</description>
+		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+		<disablesNeeds>
 			<li>Outdoors</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef>
+		<displayCategory>TerracottaArmy</displayCategory>
+		<defName>TA_NoFood</defName>
+		<label>No Food</label>
+		<description>This Soldier never needs to eat.</description>
+		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+		<disablesNeeds>
 			<li>Food</li>
+		</disablesNeeds>
+	</GeneDef>
+
+	<GeneDef>
+		<displayCategory>TerracottaArmy</displayCategory>
+		<defName>TA_NoMood</defName>
+		<label>No Mood</label>
+		<description>This Soldier never needs to be happy.</description>
+		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+		<disablesNeeds>
 			<li>Mood</li>
+		</disablesNeeds>
+	</GeneDef>
+
+	<GeneDef>
+		<displayCategory>TerracottaArmy</displayCategory>
+		<defName>TA_NoJoy</defName>
+		<label>No Joy</label>
+		<description>This Soldier never needs to have fun.</description>
+		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+		<disablesNeeds>
 			<li>Joy</li>
 		</disablesNeeds>
 	</GeneDef>
 
+	<GeneDef>
+		<displayCategory>TerracottaArmy</displayCategory>
+		<defName>TA_NoLearning</defName>
+		<label>No Learning</label>
+		<description>This Soldier never learn.</description>
+		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+		<statFactors>
+			<GlobalLearningFactor>0.0</GlobalLearningFactor>
+		</statFactors>
+	</GeneDef>
+	
+	<GeneDef>
+		<displayCategory>TerracottaArmy</displayCategory>
+		<defName>TA_NoPain</defName>
+		<label>No Pain</label>
+		<description>This Soldier never feels pain.</description>
+		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+		<painFactor>0.0</painFactor>
+	</GeneDef>
+
+	
+	
 </Defs>

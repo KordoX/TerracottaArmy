@@ -10,9 +10,17 @@
 		<genes>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
-			<li>Body_Thin</li>
+			<li>Body_Hulk</li>
 			<li>Skin_Orange</li>
 			<li>TA_NoSleep</li>
+			<li>TA_NoPain</li>
+			<li>TA_NoLearning</li>
+			<li>TA_NoComfort</li>
+			<li>TA_NoBeauty</li>
+			<li>TA_NoOutdoors</li>
+			<li>TA_NoFood</li>
+			<li>TA_NoMood</li>
+			<li>TA_NoJoy</li>
 		</genes>
 	</XenotypeDef>
 	

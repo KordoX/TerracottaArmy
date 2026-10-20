@@ -5,8 +5,12 @@
 		<label>make ritual blocks</label>
 		<description>Refine Stone blocks into usable ritual blocks.</description>
 		<workAmount>2500</workAmount>
+		<workSkill>Artistic</workSkill>
+		<skillRequirements>
+			<Artistic>4</Artistic>
+		</skillRequirements>
 		<recipeUsers>
-			<li>TableStonecutter</li>
+			<li>TableSculpting</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
@@ -37,11 +41,15 @@
 		<description>Make a batch of ritual wood by refining regular wood.</description>
 		<jobString>Refining ritual wood.</jobString>
 		<workAmount>1500</workAmount>
+		<workSkill>Artistic</workSkill>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<recipeUsers>
-			<li>CraftingSpot</li>
+			<li>TableSculpting</li>
 		</recipeUsers>
+		<skillRequirements>
+			<Artistic>4</Artistic>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -69,13 +77,16 @@
 		<defName>TA_Make_RitualCore</defName>
 		<label>make ritual core</label>
 		<description>Make a ritual core out of ritual wood and ancestor soul.</description>
-		<jobString>Refining ritual core.</jobString>
-		<workAmount>1500</workAmount>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<allowMixingIngredients>true</allowMixingIngredients>
+		<jobString>Bounding a Soul to ritual core.</jobString>
+		<workAmount>2500</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSpeedStat>ReadingSpeed</workSpeedStat>
 		<recipeUsers>
-			<li>CraftingSpot</li>
+			<li>TableSculpting</li>
 		</recipeUsers>
+		<skillRequirements>
+			<Artistic>4</Artistic>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -87,12 +98,9 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
-				<li>Woody</li>
-			</categories>
-			<disallowedThingDefs>
+			<thingDefs>
 				<li>TA_RitualWoodLog</li>
-			</disallowedThingDefs>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<TA_RitualWoodLog>20</TA_RitualWoodLog>
