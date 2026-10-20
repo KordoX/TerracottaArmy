@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>TA_RitualCore</defName>
+		<label>ritual core</label>
+		<description>A core through which an artificial soldier can be born. Not to be ingested by Humans.</description>
+		<graphicData>
+			<texPath>TA_RitualCore</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.75</Mass>
+		</statBases>
+		<stackLimit>3</stackLimit>
+		<stuffProps>
+			<color>(139,94,60)</color>
+			<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+			<stuffAdjective>ritual core</stuffAdjective>
+			<statFactors>
+				<MarketValue>0.6</MarketValue>
+				<MaxHitPoints>1.4</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<DoorOpenSpeed>0.55</DoorOpenSpeed>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+				<MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
+				<Beauty>1.8</Beauty>
+				<MaxHitPoints>1</MaxHitPoints>
+				<WorkToBuild>1.0</WorkToBuild>
+				<WorkToMake>1.0</WorkToMake>
+			</statFactors>
+			<statOffsets>
+				<Beauty>1</Beauty>
+			</statOffsets>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+	</ThingDef>
+
+	
+</Defs>
