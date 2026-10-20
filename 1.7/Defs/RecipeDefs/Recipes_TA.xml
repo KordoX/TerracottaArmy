@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>TA_Make_StoneBlocksRitual</defName>
+		<label>make ritual blocks</label>
+		<description>Refine Stone blocks into usable ritual blocks.</description>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneBlocks</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneBlocks</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>TA_BlocksRitual</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TA_BlocksRitual>20</TA_BlocksRitual>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>TA_Make_RitualWood</defName>
+		<label>make ritual wood</label>
+		<description>Make a batch of ritual wood by refining regular wood.</description>
+		<jobString>Refining ritual wood.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>TA_RitualWoodLog</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TA_RitualWoodLog>20</TA_RitualWoodLog>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>TA_Make_RitualCore</defName>
+		<label>make ritual core</label>
+		<description>Make a ritual core out of ritual wood and ancestor soul.</description>
+		<jobString>Refining ritual core.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TA_RitualWoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>TA_RitualWoodLog</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TA_RitualWoodLog>20</TA_RitualWoodLog>
+		</products>
+	</RecipeDef>
+</Defs>

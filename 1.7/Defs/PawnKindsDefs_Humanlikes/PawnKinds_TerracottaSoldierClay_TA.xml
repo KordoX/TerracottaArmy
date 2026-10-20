@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnKindDef Name="TerracottaSoldierClayBase" Abstract="True">
+		<label>Terracotta Soldier(Clay)</label>
+		<race>Human</race>
+		<xenotypeSet>
+			<xenotypeChances>
+				<TA_TerracottaSoldierClay>999</TA_TerracottaSoldierClay>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
+		<combatPower>30</combatPower>
+		<isFighter>true</isFighter>
+		<chronologicalAgeRange>0~0</chronologicalAgeRange>
+		<initialResistanceRange>15~15</initialResistanceRange>
+		<initialWillRange>25~25</initialWillRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>TA</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>TA</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="TerracottaSoldierClayBase">
+		<defName>TerracottaSoldierClay_Player</defName>
+		<weaponMoney>0</weaponMoney>
+		<defaultFactionDef>PlayerColony</defaultFactionDef>
+	</PawnKindDef>
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GeneDef ParentName="GeneSleepBase">
+		<defName>TA_NoSleep</defName>
+		<label>eternal vigilance</label>
+		<description>This Soldier never needs to sleep.</description>
+		<disablesNeeds>
+			<li>Rest</li>
+			<li>Comfort</li>
+			<li>Beauty</li>
+			<li>Outdoors</li>
+			<li>Food</li>
+			<li>Mood</li>
+			<li>Joy</li>
+		</disablesNeeds>
+	</GeneDef>
+
+</Defs>

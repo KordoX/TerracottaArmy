@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>TA_BlocksRitual</defName>
+		<label>ritual blocks</label>
+		<description>Blocks of solid ritual stone. This stone is known for its mystical properties and is often used in ceremonial constructions.</description>
+		<graphicData>
+			<color>(139,94,60)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.75</Mass>
+		</statBases>
+		<stuffProps>
+			<color>(139,94,60)</color>
+			<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+			<stuffAdjective>ritual blocks</stuffAdjective>
+			<statFactors>
+				<MarketValue>0.6</MarketValue>
+				<MaxHitPoints>1.4</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<DoorOpenSpeed>0.55</DoorOpenSpeed>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+				<MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
+				<Beauty>1.2</Beauty>
+				<MaxHitPoints>0.8</MaxHitPoints>
+				<WorkToBuild>1.5</WorkToBuild>
+				<WorkToMake>1.5</WorkToMake>
+			</statFactors>
+			<statOffsets>
+				<Beauty>1</Beauty>
+			</statOffsets>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+	</ThingDef>
+
+	
+</Defs>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BackstoryDef>
+		<defName>NewbornTA_SoldierBase</defName>
+		<title>Terracotta Soldier(Clay)</title>
+		<titleShort>Terracotter</titleShort>
+		<description>Formed with Hands.</description>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>TA</li>
+		</spawnCategories>
+		<requiresSpawnCategory>true</requiresSpawnCategory>
+		<disallowedTraits>
+		</disallowedTraits>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>SoldierTA_SoldierBase</defName>
+		<title>Terracotta Soldier(Clay)</title>
+		<titleShort>Terracotter</titleShort>
+		<description>Awakend by Soul.</description>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>TA</li>
+		</spawnCategories>
+		<requiresSpawnCategory>true</requiresSpawnCategory>
+		<disallowedTraits>
+		</disallowedTraits>
+	</BackstoryDef>
+
+</Defs>

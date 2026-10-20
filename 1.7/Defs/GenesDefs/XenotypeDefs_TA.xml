@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>TA_TerracottaSoldierClay</defName>
+		<label>Terracotta Soldier (Clay)</label>
+		<description>A Terracotta soldier bound to an ancestral spirit.</description>
+		<descriptionShort>A tireless Terracotta soldier.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Genie</iconPath>
+		<genes>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Body_Thin</li>
+			<li>Skin_Orange</li>
+			<li>TA_NoSleep</li>
+		</genes>
+	</XenotypeDef>
+	
+</Defs>
