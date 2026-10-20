@@ -11,7 +11,7 @@
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<combatPower>30</combatPower>
 		<isFighter>true</isFighter>
-		<chronologicalAgeRange>0~0</chronologicalAgeRange>
+		<chronologicalAgeRange>25~25</chronologicalAgeRange>
 		<initialResistanceRange>15~15</initialResistanceRange>
 		<initialWillRange>25~25</initialWillRange>
 		<backstoryFiltersOverride>
@@ -25,7 +25,6 @@
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
-	
 	<PawnKindDef ParentName="TerracottaSoldierClayBase">
 		<defName>TerracottaSoldierClay_Player</defName>
 		<weaponMoney>0</weaponMoney>
