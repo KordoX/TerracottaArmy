@@ -25,6 +25,8 @@
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
+	
+	
 	<PawnKindDef ParentName="TerracottaSoldierClayBase">
 		<defName>TerracottaSoldierClay_Player</defName>
 		<weaponMoney>0</weaponMoney>
