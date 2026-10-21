@@ -106,4 +106,51 @@
 			<TA_RitualCore>1</TA_RitualCore>
 		</products>
 	</RecipeDef>
+
+	<RecipeDef>
+		<defName>TA_Make_TerracottaSoldierClay</defName>
+		<label>Burn Terracotta Soldier Clay</label>
+		<description>Use ritual material for a new Soldier.</description>
+		<jobString>Burning Terracotta Soldier Clay</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workerClass>TerracottaArmy.Recipe_SpawnSpecificPawn</workerClass>
+		<recipeUsers>
+			<li>TableSculpting</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TA_RitualWoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TA_BlocksRitual</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TA_RitualCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<WoodLog>1</WoodLog>
+		</products>
+		<modExtensions>
+			<li Class="TerracottaArmy.PawnSpawnerModExtension">
+				<pawnKindToSpawn>TerracottaSoldierClay_Player</pawnKindToSpawn>
+			</li>
+		</modExtensions>
+	</RecipeDef>
 </Defs>
