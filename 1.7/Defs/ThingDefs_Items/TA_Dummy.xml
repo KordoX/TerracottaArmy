@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>TA_Dummy</defName>
+		<label>dummy</label>
+		<description>A simple dummy item for the creation Recipe.</description>
+		<statBases>
+			<Mass>0.0</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

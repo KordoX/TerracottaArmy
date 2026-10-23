@@ -145,7 +145,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<WoodLog>1</WoodLog>
+			<TA_Dummy>1</TA_Dummy>
 		</products>
 		<modExtensions>
 			<li Class="TerracottaArmy.PawnSpawnerModExtension">

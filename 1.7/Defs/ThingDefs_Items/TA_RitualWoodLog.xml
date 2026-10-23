@@ -7,6 +7,7 @@
 		<graphicData>
 			<texPath>TA_RitualWoodLog</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(125,116,105)</color>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
 		<soundInteract>Wood_Drop</soundInteract>
