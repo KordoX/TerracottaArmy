@@ -103,4 +103,22 @@
 		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
 		<painFactor>0.0</painFactor>
 	</GeneDef>
+
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<displayCategory>TerracottaArmy</displayCategory>
+		<defName>Skin_Terracotta</defName>
+		<label>terracotta skin</label>
+		<labelShortAdj>terracotta</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that gives their skin a terracotta color.</description>
+		<skinColorOverride>(107, 49, 33)</skinColorOverride>
+		<displayOrderInCategory>69</displayOrderInCategory>
+		<randomBrightnessFactor>0</randomBrightnessFactor>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>orange</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
 </Defs>
