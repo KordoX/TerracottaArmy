@@ -36,6 +36,9 @@
 			</statOffsets>
 			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
 		</stuffProps>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
 	</ThingDef>
 
 	
