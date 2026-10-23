@@ -5,8 +5,8 @@
 		<label>ritual core</label>
 		<description>A core through which an artificial soldier can be born. Not to be ingested by Humans.</description>
 		<graphicData>
-			<texPath>TA_RitualCore</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>TA_RitualCore/TA_RitualCore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
 			<Mass>0.75</Mass>
@@ -36,6 +36,9 @@
 			</statOffsets>
 			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
 		</stuffProps>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
 	</ThingDef>
 
 	

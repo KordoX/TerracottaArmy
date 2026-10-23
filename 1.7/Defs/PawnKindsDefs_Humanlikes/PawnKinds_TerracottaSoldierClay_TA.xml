@@ -28,7 +28,7 @@
 	
 	
 	<PawnKindDef ParentName="TerracottaSoldierClayBase">
-		<defName>TerracottaSoldierClay_Player</defName>
+		<defName>TA_TerracottaSoldierClay</defName>
 		<weaponMoney>0</weaponMoney>
 		<defaultFactionDef>PlayerColony</defaultFactionDef>
 	</PawnKindDef>
